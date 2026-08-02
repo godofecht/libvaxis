@@ -1,0 +1,24 @@
+.{
+    .name = .vaxis_azazel_parity,
+    .version = "0.0.0",
+    .fingerprint = 0x556db0b97b71fd4c,
+    .dependencies = .{
+        .zigimg = .{
+            .path = "../../zig-pkg/zigimg-0.1.0-8_eo2oyaFwBZwJpmqPkCfVXWBrHcqbYwmrp1I6bTD3lI",
+        },
+        .uucode = .{
+            .path = "../../zig-pkg/uucode-0.2.0-ZZjBPlK5VADj7fdoq7G8LIHzD5o6FSkcBXXrRWr4jnrA",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "build_spec_test.zig",
+        "compat.zig",
+        "schema.cue",
+        "project.cue",
+        "export.cue",
+        "gen_build_spec.sh",
+        "src",
+    },
+}
